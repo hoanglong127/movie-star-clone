@@ -1,0 +1,128 @@
+/* Ipad Pro */
+@media screen and (min-width: 1023px) and (max-width: 1025px) {
+}
+
+/* Ipad & Mobile */
+@media screen and (max-width: 1023px) {
+  .navbar-nav {
+    background-color: var(--black-color);
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    border-bottom: none;
+  }
+
+  .navbar-nav .nav-item::after {
+    display: none;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    padding: 2.5rem;
+  }
+
+  .navbar-nav .nav-item.active .nav-link {
+    color: var(--primary-color);
+  }
+
+  .menu-dropdown {
+    display: none;
+    position: relative;
+    width: 100%;
+  }
+
+  .navbar-nav .nav-item:hover .menu-dropdown {
+    display: block;
+  }
+
+  .carousel-caption p {
+    margin-right: 0;
+  }
+
+  .nav-tabs .nav-link {
+    font-size: 1.6rem;
+  }
+
+  .vbox-overlay .vbox-close {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* Ipad */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .slick-prev {
+    left: -40px;
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+
+  .comingSoon-slide__list .slick-next {
+    right: -30px;
+  }
+
+  .comingSoon-slide__list .slick-prev {
+    left: -30px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px) {
+  .navbar > .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .navbar-brand img {
+    width: 75%;
+  }
+
+  .carousel-item {
+    height: 700px;
+  }
+
+  .carousel-caption.d-none {
+    display: block !important;
+  }
+
+  .carousel-caption {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-caption h3 {
+    font-size: 4rem;
+  }
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+
+  .showtime-movies__image {
+    margin-bottom: 2rem;
+  }
+
+  .showtime-movies__viewing .left span {
+    display: block;
+  }
+
+  .showtime-movies__viewing .left {
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+  .showtime-movies__viewing .left .btn--time {
+    margin-bottom: 0.5rem;
+  }
+
+  .comingSoon__text {
+    margin-bottom: 2rem;
+  }
+
+  .footer__item + .footer__item {
+    margin-top: 3rem;
+  }
+}
